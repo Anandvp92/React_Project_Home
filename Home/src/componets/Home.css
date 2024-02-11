@@ -1,0 +1,9 @@
+.bg-section {
+  background-image: url('https://images.pexels.com/photos/1069798/pexels-photo-1069798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  color: #ffffff; /* Set text color for better visibility */
+  padding: 100px 0; /* Adjust padding based on your design */
+}
