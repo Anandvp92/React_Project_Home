@@ -9,7 +9,7 @@ import '../componets/Navbar.css'
 export function ResponsiveNavbar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg" className="justify-content-between custom" fixed="top">
+      <Navbar bg="dark" variant="dark" expand="lg" className="justify-content-between custom"  fixed="top">
         <Container>
           <Link to="/" className="navbar-brand">
           <FontAwesomeIcon icon={faAnchor} size="2x" />

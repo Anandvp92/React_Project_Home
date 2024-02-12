@@ -1,9 +1,180 @@
+body {
+  margin: 0;
+}
 .bg-section {
-  background-image: url('https://images.pexels.com/photos/1069798/pexels-photo-1069798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url('https://img.freepik.com/premium-photo/shades-dark-red-blurry-art-background_678264-852.jpg');
+  /* Add any other styles for the bg-section here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
+  height: 100vh; /* Adjust as needed for your design */
+  color: white;
+  margin: auto;
+  padding: auto;
+}
+
+.item-container {
+  /* Add any other styles for the item-container here */
+  display: flex;
+  align-items: center;
+}
+
+
+/* Section 2 */
+
+.header-main{
   text-align: center;
-  color: #ffffff; /* Set text color for better visibility */
-  padding: 100px 0; /* Adjust padding based on your design */
+}
+
+.header-sub{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.bg-section2 {
+  display: flex;
+  background-image: url('https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30704.jpg?w=740&t=st=1707738032~exp=1707738632~hmac=e9903131e6f6b40f2886016c4d1fec1e7c3e496ee772fe649cd94d3c1b759060');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: white;
+  padding-left: 4rem;
+  width: 100%;
+}
+
+#cards1{
+  width: 18rem;
+  color: white;
+  background-color: red;
+  text-align: left;
+  margin-bottom: 5%;
+
+}
+
+
+
+#cards3{
+  width: auto;
+  color: rgb(252, 252, 252);
+  background-color: rgb(236, 4, 4);
+  margin-top: 10px;
+  text-align: left;
+
+
+
+}
+
+
+@media (max-width: 1400px) {
+  #cards1,
+  #cards2{
+    width:18rem; /* Set the width to 100% for small screens */
+    margin-bottom: 2%; /* Adjust margin for small screens */
+  }
+  .bg-section2 {
+    height: auto;
+   padding-bottom: auto;
+  }
+}
+
+
+#cardhtag{
+  text-align: left;
+  float: left;
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.bg-section3 {
+  display: flex;
+  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: white;
+  padding-left: 4rem;
+  width: 100%;
+}
+
+
+
+/* Section 3 */
+
+#cards4 {
+  background-color: black;
+  color: white;
+  width: 18rem;
+  margin-top: 5px;
+  margin-right: 10px; /* Add margin-right for spacing between cards */
+  margin-bottom: 10px; /* Add margin-bottom for spacing between cards */
+}
+
+
+
+
+#cardimgtag{
+  width: 'auto';
+  height: '180px' ;
+}
+
+@media(max-width: 1400px){
+  .bg-section3 {
+    height: auto;
+   padding-bottom: auto;
+  }
+  
+}
+
+
+.bg-section4 {
+  display: flex;
+  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: white;
+  padding-left: 4rem;
+  width: 100%;
+}
+
+
+
+
+
+.bg-section5 {
+  display: flex;
+  background-color: white;
+  /* background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255'); */
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 50vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: rgb(255, 0, 0);
+  padding-left: 4rem;
+  width: 100%;
+}
+
+.bg-section6 {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  /* background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255'); */
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 50vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: rgb(255, 255, 255);
+  padding-left: 4rem;
+  width: 100%;
 }
