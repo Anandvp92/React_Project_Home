@@ -7,7 +7,7 @@ import { Link as ScrollLink } from 'react-scroll';
 export function ResponsiveNavbar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg" className="justify-content-between custom"  fixed="top">
+      <Navbar  expand="lg" variant="light" className="justify-content-between  custom"  fixed="top" style={{backgroundColor:"#7811f3",color:"white"}}>
         <Container>
               <Nav.Link className="navbar-brand" as={ScrollLink} to="section1" smooth={true} duration={100}>
           <FontAwesomeIcon icon={faAnchor} size="2x" />
@@ -34,7 +34,7 @@ export function ResponsiveNavbar() {
               <Nav.Link as={ScrollLink} to="section6" smooth={true} duration={100}>
                 FAQs
               </Nav.Link>
-              <Button variant="danger" as={ScrollLink} to="section5" smooth={true} duration={100} size="sm" >Contac Us</Button>
+              <Button variant="danger" as={ScrollLink} to="section5" smooth={true} duration={100} size="lg" >Contac Us</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
