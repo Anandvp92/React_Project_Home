@@ -38,56 +38,12 @@ body {
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
-  height: 100vh; /* Adjust as needed for your design */
+  height: 130vh; /* Adjust as needed for your design */
   margin-top: 0; /* Remove default top margin */
   color: white;
   padding-left: 4rem;
   width: 100%;
 }
-
-#cards1{
-  width: 18rem;
-  color: white;
-  background-color: red;
-  text-align: left;
-  margin-bottom: 5%;
-
-}
-
-
-
-#cards3{
-  width: auto;
-  color: rgb(252, 252, 252);
-  background-color: rgb(236, 4, 4);
-  margin-top: 10px;
-  text-align: left;
-
-
-
-}
-
-
-@media (max-width: 1400px) {
-  #cards1,
-  #cards2{
-    width:18rem; /* Set the width to 100% for small screens */
-    margin-bottom: 2%; /* Adjust margin for small screens */
-  }
-  .bg-section2 {
-    height: auto;
-   padding-bottom: auto;
-  }
-}
-
-
-#cardhtag{
-  text-align: left;
-  float: left;
-  color: rgb(255, 255, 255);
-
-}
-
 
 
 
@@ -97,7 +53,7 @@ body {
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
-  height: 100vh; /* Adjust as needed for your design */
+  height: 80vh; /* Adjust as needed for your design */
   margin-top: 0; /* Remove default top margin */
   color: white;
   padding-left: 4rem;
@@ -108,28 +64,22 @@ body {
 
 /* Section 3 */
 
-#cards4 {
-  background-color: black;
-  color: white;
-  width: 18rem;
-  margin-top: 5px;
-  margin-right: 10px; /* Add margin-right for spacing between cards */
-  margin-bottom: 10px; /* Add margin-bottom for spacing between cards */
-}
 
 
 
 
-#cardimgtag{
-  width: 'auto';
-  height: '180px' ;
-}
-
-@media(max-width: 1400px){
-  .bg-section3 {
+@media(max-width:14000px){
+  .bg-section3  {
     height: auto;
    padding-bottom: auto;
   }
+
+  .bg-section2{
+    height: auto;
+    padding-bottom: auto;
+  }
+
+  
   
 }
 

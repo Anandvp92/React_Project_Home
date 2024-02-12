@@ -29,93 +29,89 @@ export function Home(){
 
   {/* Start Section 2 */}
   <section className="bg-section2">
-                <Container>
-                    <h1 className='header-main'>Stirring Up Great Conversations Over Coffee!</h1>
-                    <h5 className='header-sub'>From a variety of topics to choose from, every talk in the series corresponds to a flavor and an intensity.<br/>Blend the flavor with the intensity you enjoy and get the conversation of your choice. </h5>
-                    <h1 id='cardtitle'>Flavour</h1>
-
-                    <Row className="mb-4">
-                        <Col md={6}>
-                            <Card  id='cards1'>
-                                <Card.Body>
-                                    <Card.Title>Card 1</Card.Title>
-                                    <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of the card's content.
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                            <h1>Business</h1>
-                            <h1>Visionary</h1>
-                           
-                        </Col>
-
-                        <Col md={6}>
-                        <Card id='cards2'>
-                       
-                    <Card.Img variant="top" src="https://w0.peakpx.com/wallpaper/347/353/HD-wallpaper-oggy-funny-dc-art.jpg" />
-                    </Card>
-                    </Col>
-                    </Row>
-
-              
+               <Container>
+               <h1 className='header-main'>Upcoming Events</h1>
+    <h5 className='header-sub'>Attend a live webinar industry stalwarts sharing their views,tips and vision on tends that are reinventing the <br/> way we work, live and function. Register for the upcoming webinar or choose as per your preference!</h5>
+    <Row className="justify-content-md-center">
+      <Col md={3} className="mb-4">
+          <Card style={{backgroundColor:"black" ,color:"white"}}>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+          </Card>
+        </Col>
    
-                        <Row className="mb-4">
-                        <Col md={2} className="d-flex justify-content-center align-items-center">
-                        <div id='cardhtag'>
-                            <h1 >Intensity</h1>
-                        </div>
-                        </Col>
-                        <Col md={2}>
-                    <Card id='cards3'>
-                        <Card.Body>
-                            <Card.Title>Card 1</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>             
-                </Col>
 
-                <Col md={2}>
-                    <Card id='cards3'>
-                        <Card.Body>
-                            <Card.Title>Card 1</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>             
-                </Col>
-                
-                  <Col md={2}>
-                    <Card id='cards3'>
-                        <Card.Body>
-                            <Card.Title>Card 1</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>             
-                </Col>
-                
-                <Col md={2}>
-                    <Card id='cards3'>
-                        <Card.Body>
-                            <Card.Title>Card 1</Card.Title>
-                            <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </Card.Text>
-                        </Card.Body>
-                        </Card>             
-                </Col>
-                
-                </Row>
+   
+      {/* Second Card on the right end */}
+      <Col md={3} className="mb-6" style={{marginBottom:"3rem"}}>
+     
 
-              
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mMpEt1Y6UVU?si=nP8sXbiLpGNHxRj-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      </Col>
+      <Col md={4} className="mb-6"></Col>
+      
+  <Col md={3} className="d-flex justify-content-center align-items-center">
+    <Card style={{marginBottom:"2rem", backgroundColor:"transparent", color:"white" ,border:"none"}}>
+  <Card.Body>
+  <Card.Title>Card Title</Card.Title>
+  </Card.Body>
+  </Card>
+  </Col>  
+        
+
+        <Col md={3} className="mb-4">
+          <Card style={{backgroundColor:"black" ,color:"white"}}>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+          </Card>
+        </Col>
+
+
+
+        <Col md={3} className="mb-4">
+          <Card style={{backgroundColor:"black" ,color:"white"}}>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+          </Card>
+        </Col>
+
+
+
+        <Col md={3} className="mb-4">
+          <Card style={{backgroundColor:"black" ,color:"white"}}>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+          </Card>
+        </Col>
+
+
+      </Row>
+
                 </Container>
             </section>
             {/* End Section 2 */}
