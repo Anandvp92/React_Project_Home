@@ -1,6 +1,12 @@
 body {
   margin: 0;
 }
+
+.liststyle{
+  list-style: none;
+}
+
+
 .bg-section {
   background-image: url('https://img.freepik.com/free-vector/dark-graphic-wavy-screensaver_23-2148400271.jpg?w=740&t=st=1707741645~exp=1707742245~hmac=9e265782f334c51c96bae6f13c78347655be2aa3dd6da77a21c0af797e4f085a');
   /* Add any other styles for the bg-section here */
@@ -53,7 +59,7 @@ body {
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
-  height: 80vh; /* Adjust as needed for your design */
+  height: 130vh; /* Adjust as needed for your design */
   margin-top: 0; /* Remove default top margin */
   color: white;
   padding-left: 4rem;
@@ -63,6 +69,72 @@ body {
 
 
 /* Section 3 */
+
+
+.bg-section4 {
+  display: flex;
+  background-image: url('https://img.freepik.com/free-vector/abstract-asthetic-hd-wallpaper-background-banner-design-multipurpose_1340-16670.jpg?w=900&t=st=1707741799~exp=1707742399~hmac=b8db96d94ff658a965d2c3a12ee13a7f950e0dcb1d0372c01d903c0a5843d06a');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 130vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: white;
+  padding-left: 4rem;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.bg-section5 {
+  display: flex;
+  /* background-color: white; */
+  background-image: url('https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?w=740&t=st=1707742009~exp=1707742609~hmac=f9b0197a4efb46000caa87ba94560787aa932f8b85f92a4a08f70b8b8ea5d80b');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 130vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: rgb(255, 0, 0);
+  padding-left: 4rem;
+  width: 100%;
+}
+
+.bg-section6 {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  /* background-image: url('https://img.freepik.com/free-photo/aerial-view-business-team_53876-124515.jpg?w=900&t=st=1707742187~exp=1707742787~hmac=6551009e5bcdbeee5a17ab7a34ba5540c5549da1bf51a6e22192360a741e0c7e'); */
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 130vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: rgb(255, 255, 255);
+  padding-left: 4rem;
+  width: 100%;
+}
+
+
+.bg-section7 {
+  display: flex;
+  /* background-color: rgb(74, 182, 83); */
+  background-image: url('https://img.freepik.com/free-vector/dark-graphic-wavy-screensaver_23-2148400271.jpg?w=740&t=st=1707741645~exp=1707742245~hmac=9e265782f334c51c96bae6f13c78347655be2aa3dd6da77a21c0af797e4f085a');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 130vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: rgb(255, 255, 255);
+  padding-left: 4rem;
+  width: 100%;
+}
 
 
 
@@ -79,81 +151,25 @@ body {
     padding-bottom: auto;
   }
 
-  
-  
-}
+  .bg-section4{
+    height: auto;
+    padding-bottom: auto;
+  }
+
+  .bg-section5{
+    height: auto;
+    padding-bottom: auto;
+  }
+
+  .bg-section6{
+    height: auto;
+    padding-bottom: auto;
+  }
+
+  .bg-section7{
+    height: auto;
+    padding-bottom: auto;
+  }
 
 
-.bg-section4 {
-  display: flex;
-  background-image: url('https://img.freepik.com/free-vector/abstract-asthetic-hd-wallpaper-background-banner-design-multipurpose_1340-16670.jpg?w=900&t=st=1707741799~exp=1707742399~hmac=b8db96d94ff658a965d2c3a12ee13a7f950e0dcb1d0372c01d903c0a5843d06a');
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-  height: 100vh; /* Adjust as needed for your design */
-  margin-top: 0; /* Remove default top margin */
-  color: white;
-  padding-left: 4rem;
-  width: 100%;
-}
-
-
-
-
-
-.bg-section5 {
-  display: flex;
-  /* background-color: white; */
-  background-image: url('https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?w=740&t=st=1707742009~exp=1707742609~hmac=f9b0197a4efb46000caa87ba94560787aa932f8b85f92a4a08f70b8b8ea5d80b');
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-  height: 50vh; /* Adjust as needed for your design */
-  margin-top: 0; /* Remove default top margin */
-  color: rgb(255, 0, 0);
-  padding-left: 4rem;
-  width: 100%;
-}
-
-.bg-section6 {
-  display: flex;
-  /* background-color: rgb(104, 101, 101); */
-  background-image: url('https://img.freepik.com/free-photo/aerial-view-business-team_53876-124515.jpg?w=900&t=st=1707742187~exp=1707742787~hmac=6551009e5bcdbeee5a17ab7a34ba5540c5549da1bf51a6e22192360a741e0c7e');
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-  height: 50vh; /* Adjust as needed for your design */
-  margin-top: 0; /* Remove default top margin */
-  color: rgb(255, 255, 255);
-  padding-left: 4rem;
-  width: 100%;
-}
-
-
-.bg-section7 {
-  display: flex;
-  /* background-color: rgb(74, 182, 83); */
-  background-image: url('https://img.freepik.com/free-vector/dark-graphic-wavy-screensaver_23-2148400271.jpg?w=740&t=st=1707741645~exp=1707742245~hmac=9e265782f334c51c96bae6f13c78347655be2aa3dd6da77a21c0af797e4f085a');
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-  height: 50vh; /* Adjust as needed for your design */
-  margin-top: 0; /* Remove default top margin */
-  color: rgb(255, 255, 255);
-  padding-left: 4rem;
-  width: 100%;
-}
-
-.footer {
-  display: flex;
-  /* background-color: rgb(0, 0, 0); */
-  background-image: url('https://img.freepik.com/free-vector/abstract-asthetic-hd-wallpaper-background-banner-design-multipurpose_1340-16670.jpg?w=900&t=st=1707741799~exp=1707742399~hmac=b8db96d94ff658a965d2c3a12ee13a7f950e0dcb1d0372c01d903c0a5843d06a');
-  background-size: cover;
-  justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-  height: 20vh; /* Adjust as needed for your design */
-  margin-top: 0; /* Remove default top margin */
-  color: rgb(255, 255, 255);
-  padding-left: 4rem;
-  width: 100%;
 }

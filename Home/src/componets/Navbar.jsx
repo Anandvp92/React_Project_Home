@@ -3,37 +3,39 @@ import { Link } from "react-router-dom";
 import { Navbar, Nav, Container,Button,NavbarBrand } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faAnchor} from "@fortawesome/free-solid-svg-icons";
-import sitelogo from"../assets/images/trend-micro-logo.svg"
 import '../componets/Navbar.css'
-
+import { Link as ScrollLink } from 'react-scroll';
 export function ResponsiveNavbar() {
   return (
     <>
       <Navbar bg="dark" variant="dark" expand="lg" className="justify-content-between custom"  fixed="top">
         <Container>
-          <Link to="/" className="navbar-brand">
+              <Nav.Link className="navbar-brand" as={ScrollLink} to="section1" smooth={true} duration={80}>
           <FontAwesomeIcon icon={faAnchor} size="2x" />
-          </Link>
+            </Nav.Link>            
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
           </Navbar.Toggle>
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav className="ml-auto gap-3">
-              <Nav.Link as={Link} to="/">
-                The Story
-              </Nav.Link>
-              <Nav.Link as={Link} to="/store">
+            <Nav.Link as={ScrollLink} to="section1" smooth={true} duration={80}>
+              Home
+            </Nav.Link>
+              <Nav.Link as={ScrollLink} to="section2" smooth={true} duration={80}>
                 Flavours
               </Nav.Link>
-              <Nav.Link as={Link} to="/flavour">
-                Upcoming
+
+              <Nav.Link as={ScrollLink} to="section3" smooth={true} duration={80}>
+              Upcoming
               </Nav.Link>
-              <Nav.Link as={Link} to="/flavour">
+             
+              <Nav.Link as={ScrollLink} to="section4" smooth={true} duration={80}>
                 On Demand
               </Nav.Link>
-              <Nav.Link as={Link} to="/flavour">
+              
+              <Nav.Link as={ScrollLink} to="section6" smooth={true} duration={80}>
                 FAQs
               </Nav.Link>
-              <Button variant="danger" size="sm" >Contac Us</Button>{' '}
+              <Button variant="danger" as={ScrollLink} to="section5" smooth={true} duration={80} size="sm" >Contac Us</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
