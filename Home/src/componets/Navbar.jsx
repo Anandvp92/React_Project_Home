@@ -7,14 +7,14 @@ import { Link as ScrollLink } from 'react-scroll';
 export function ResponsiveNavbar() {
   return (
     <>
-      <Navbar  expand="lg" variant="light" className="justify-content-between  custom"  fixed="top" style={{backgroundColor:"#7811f3",color:"white"}}>
+      <Navbar className="justify-content-between"  fixed="top" style={{backgroundColor:"#7811f3",color:"white", fontSize:"25px", fontWeight:"700"}}>
         <Container>
-              <Nav.Link className="navbar-brand" as={ScrollLink} to="section1" smooth={true} duration={100}>
+              <Nav.Link className="navbar-brand " as={ScrollLink} to="section1" smooth={true} duration={100}>
           <FontAwesomeIcon icon={faAnchor} size="2x" />
             </Nav.Link>            
           <Navbar.Toggle aria-controls="responsive-navbar-nav">
           </Navbar.Toggle>
-          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+          <Navbar.Collapse id="responsive-navbar-nav"  className="justify-content-end">
             <Nav className="ml-auto gap-3">
             <Nav.Link as={ScrollLink} to="section1" smooth={true} duration={100}>
               Home
