@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .bg-section {
-  background-image: url('https://img.freepik.com/premium-photo/shades-dark-red-blurry-art-background_678264-852.jpg');
+  background-image: url('https://img.freepik.com/free-vector/dark-graphic-wavy-screensaver_23-2148400271.jpg?w=740&t=st=1707741645~exp=1707742245~hmac=9e265782f334c51c96bae6f13c78347655be2aa3dd6da77a21c0af797e4f085a');
   /* Add any other styles for the bg-section here */
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@ body {
 
 .bg-section2 {
   display: flex;
-  background-image: url('https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30704.jpg?w=740&t=st=1707738032~exp=1707738632~hmac=e9903131e6f6b40f2886016c4d1fec1e7c3e496ee772fe649cd94d3c1b759060');
+  background-image: url('https://img.freepik.com/free-vector/abstract-asthetic-hd-wallpaper-background-banner-design-multipurpose_1340-16670.jpg?w=900&t=st=1707741799~exp=1707742399~hmac=b8db96d94ff658a965d2c3a12ee13a7f950e0dcb1d0372c01d903c0a5843d06a');
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
@@ -93,7 +93,7 @@ body {
 
 .bg-section3 {
   display: flex;
-  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255');
+  background-image: url('https://img.freepik.com/free-vector/dark-graphic-wavy-screensaver_23-2148400271.jpg?w=740&t=st=1707741645~exp=1707742245~hmac=9e265782f334c51c96bae6f13c78347655be2aa3dd6da77a21c0af797e4f085a');
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
@@ -136,7 +136,7 @@ body {
 
 .bg-section4 {
   display: flex;
-  background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255');
+  background-image: url('https://img.freepik.com/free-vector/abstract-asthetic-hd-wallpaper-background-banner-design-multipurpose_1340-16670.jpg?w=900&t=st=1707741799~exp=1707742399~hmac=b8db96d94ff658a965d2c3a12ee13a7f950e0dcb1d0372c01d903c0a5843d06a');
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
@@ -153,8 +153,8 @@ body {
 
 .bg-section5 {
   display: flex;
-  background-color: white;
-  /* background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255'); */
+  /* background-color: white; */
+  background-image: url('https://img.freepik.com/free-vector/realistic-white-golden-geometric-background_79603-2032.jpg?w=740&t=st=1707742009~exp=1707742609~hmac=f9b0197a4efb46000caa87ba94560787aa932f8b85f92a4a08f70b8b8ea5d80b');
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
@@ -167,12 +167,41 @@ body {
 
 .bg-section6 {
   display: flex;
-  background-color: rgb(0, 0, 0);
-  /* background-image: url('https://img.freepik.com/free-photo/abstract-luxury-soft-red-background-christmas-valentines-layout-designstudioroom-web-template-business-report-with-smooth-circle-gradient-color_1258-99587.jpg?t=st=1707716140~exp=1707716740~hmac=c6e46e9fc51bfdd4cffda81db18d4e87feef19f86ed943fe92d32b8014812255'); */
+  /* background-color: rgb(104, 101, 101); */
+  background-image: url('https://img.freepik.com/free-photo/aerial-view-business-team_53876-124515.jpg?w=900&t=st=1707742187~exp=1707742787~hmac=6551009e5bcdbeee5a17ab7a34ba5540c5549da1bf51a6e22192360a741e0c7e');
   background-size: cover;
   justify-content: center;
   align-items: flex-start; /* Align items to the top */
   height: 50vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: rgb(255, 255, 255);
+  padding-left: 4rem;
+  width: 100%;
+}
+
+
+.bg-section7 {
+  display: flex;
+  /* background-color: rgb(74, 182, 83); */
+  background-image: url('https://img.freepik.com/free-vector/dark-graphic-wavy-screensaver_23-2148400271.jpg?w=740&t=st=1707741645~exp=1707742245~hmac=9e265782f334c51c96bae6f13c78347655be2aa3dd6da77a21c0af797e4f085a');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 50vh; /* Adjust as needed for your design */
+  margin-top: 0; /* Remove default top margin */
+  color: rgb(255, 255, 255);
+  padding-left: 4rem;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  /* background-color: rgb(0, 0, 0); */
+  background-image: url('https://img.freepik.com/free-vector/abstract-asthetic-hd-wallpaper-background-banner-design-multipurpose_1340-16670.jpg?w=900&t=st=1707741799~exp=1707742399~hmac=b8db96d94ff658a965d2c3a12ee13a7f950e0dcb1d0372c01d903c0a5843d06a');
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 20vh; /* Adjust as needed for your design */
   margin-top: 0; /* Remove default top margin */
   color: rgb(255, 255, 255);
   padding-left: 4rem;

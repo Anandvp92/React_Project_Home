@@ -1,5 +1,7 @@
-import '../componets/Home.css'
-import {  Container, Row, Col, Card,Button} from 'react-bootstrap'
+import '../componets/Home.css';
+import {  Container, Row, Col, Card,Button} from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faQuoteRight} from "@fortawesome/free-solid-svg-icons";
 export function Home(){
     return(
         <>
@@ -206,8 +208,9 @@ export function Home(){
         <section className="bg-section5">
         <Container>
 
-<h1 className='header-main'>Webinar Showcase</h1>
-<h5 className='header-sub'>Watch the recordings of some of our best-received webinars, on-demand, Slip,pause,ponder,<br/>play-enjoy your cold brews the way you like them!</h5>
+<h1 className='header-main'>Brewing Sucess</h1>
+<h5 className='header-sub'>Partner Testimonials that Perk us up!</h5>
+<h5 className='header-sub'><FontAwesomeIcon icon={faQuoteRight} size="2x" /></h5>
 
     </Container>
         </section>
@@ -225,6 +228,34 @@ export function Home(){
         
         </section>
         {/* End Section 5 */}
+
+
+         {/* Start Section 6 */}
+         <section className="bg-section7">
+           <Container>
+
+          <h2 className='header-main'>FAQs</h2>
+
+           </Container>
+                 
+        
+        </section>
+        {/* End Section 6 */}
+
+
+
+         {/* Footer Section */}
+         <section className="footer">
+           <Container>
+
+          <h2 className='header-main'>Footer</h2>
+
+           </Container>
+                 
+        
+        </section>
+        {/* Footer Section */}
+
         </>
        
     )
