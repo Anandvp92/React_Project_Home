@@ -33,18 +33,22 @@ Provide a brief introduction to your project. Explain what it does, its purpose,
 
 
 ## Installation
+
 1. Clone the repository.
 2. Install dependencies using `npm install`.
 3. Run the development server with `npm run dev`.
 4. Explore the responsive React page in your browser.
-```bash
-# Example installation steps
-cd Home
-npm install
-npm run dev
-`bash`
-Feel free to explore the code, contribute, or use this project as a template for your own responsive React applications. I hope this project serves as a valuable resource for your front-end development endeavors!
 
-Happy coding! 🚀
+Example installation steps:
+
+```bash
+# Navigate to the project directory
+cd Home
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 
 
