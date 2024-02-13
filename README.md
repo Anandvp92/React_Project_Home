@@ -42,7 +42,7 @@ Provide a brief introduction to your project. Explain what it does, its purpose,
 cd Home
 npm install
 npm run dev
-#
+`bash`
 Feel free to explore the code, contribute, or use this project as a template for your own responsive React applications. I hope this project serves as a valuable resource for your front-end development endeavors!
 
 Happy coding! 🚀
