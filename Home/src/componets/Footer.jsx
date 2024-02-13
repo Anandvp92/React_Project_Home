@@ -77,7 +77,7 @@ export function Footer(){
     </div>
   </div>
   <div>
-    <p style={{float:'right', marginRight:"10px"}}>copyright@anand</p>
+    <p id="copyright">copyright@anand</p>
   </div>
 </footer>
 

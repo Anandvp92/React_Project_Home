@@ -169,7 +169,17 @@ body {
   .bg-section7{
     height: auto;
     padding-bottom: auto;
+
   }
+ 
 
 
+}
+
+@media(max-width:1000px){
+  #navbar-style{
+    opacity: 80%;
+    font-size: 10px;
+    font-weight: 400;
+  }
 }

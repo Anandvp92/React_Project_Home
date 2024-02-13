@@ -49,3 +49,9 @@
 	color: #ff4500; /* Change to your desired hover color */
   }
   
+  #copyright{
+  text-align: center;
+    margin-right:10px;
+    color: green;
+    text-decoration-line: underline;
+  }
