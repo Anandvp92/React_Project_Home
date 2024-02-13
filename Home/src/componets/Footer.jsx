@@ -14,6 +14,7 @@ export function Footer(){
           <a href="#">our services</a>
         </li>
         <li>
+  
           <a href="#">privacy policy</a>
         </li>
         <li>
@@ -61,22 +62,28 @@ export function Footer(){
     <div className="footer-col">
       <h4>follow us</h4>
       <div className="social-links">
-        <a href="#">
-          <i className="fa-brands fa-facebook-f" />
+        <a href="https://web.facebook.com/">
+        <img src="https://www.svgrepo.com/show/135817/facebook.svg" className="socialmediaicon"></img>
+
         </a>
-        <a href="#">
-          <i className="fa-brands fa-x-twitter" />
+        <a href="https://web.twitter.com/">
+        
+         <img src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg" className="socialmediaicon"></img>
+      
         </a>
-        <a href="#">
-          <i className="fa-brands fa-instagram" />
+        <a href="https://web.instagram.com/">
+        <img src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" className="socialmediaicon"></img>
+
         </a>
-        <a href="#">
-          <i className="fa-brands fa-linkedin-in" />
+        <a href="https://web.whatsapp.com/">
+      
+        <img src="https://www.svgrepo.com/show/303150/whatsapp-symbol-logo.svg" className="socialmediaicon"></img>
+
         </a>
       </div>
     </div>
   </div>
-  <div>
+  <div className="container" >
     <p id="copyright">copyright@anand</p>
   </div>
 </footer>

@@ -38,9 +38,9 @@ export function Home(){
       <Col md={4} className="mb-4">
           <Card style={{backgroundColor:"black" ,color:"white"}}>
       <Card.Body>
-        <Card.Title>Card 1</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
@@ -86,7 +86,7 @@ export function Home(){
         <Card.Title><FontAwesomeIcon icon={faMugHot} size='2x'></FontAwesomeIcon></Card.Title>
         <Card.Title>Mocha</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
@@ -101,7 +101,7 @@ export function Home(){
         <Card.Title><FontAwesomeIcon icon={faMugHot} size='2x'></FontAwesomeIcon></Card.Title>
         <Card.Title>Americano</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
@@ -116,7 +116,7 @@ export function Home(){
         <Card.Title><FontAwesomeIcon icon={faMugHot} size='2x'></FontAwesomeIcon></Card.Title>
         <Card.Title>Espresso</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
@@ -142,9 +142,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://easydrawingart.com/wp-content/uploads/2019/08/How-to-draw-a-cartoon-character-1.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -156,9 +156,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://assets-global.website-files.com/5a9ee6416e90d20001b20038/637ba75bd7d7f6f923ae6d17_d4UEyjlt1I0c1amn7clYuWuW9BZU5yoIubC71AFacMnP-i-DmpHbgAOTBLcImSSdvyT8YPSVS392PU2KQlxprehTgefQHMRVPP4J9BDOFJr62wGvYdHniEXYwLAcLmFGMI2jPwELBeaiYDi-OOvZlc1iiYJ10OIjRd1u0PanvZAQCt_J7H7O-Y-4cRPUAg.jpeg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -172,9 +172,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://harunmudak.com/wp-content/uploads/2020/12/girl-cartoon-characters-1.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -188,9 +188,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://m.media-amazon.com/images/I/61t+EX+x9bL.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -217,9 +217,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://easydrawingart.com/wp-content/uploads/2019/08/How-to-draw-a-cartoon-character-1.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -231,9 +231,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://assets-global.website-files.com/5a9ee6416e90d20001b20038/637ba75bd7d7f6f923ae6d17_d4UEyjlt1I0c1amn7clYuWuW9BZU5yoIubC71AFacMnP-i-DmpHbgAOTBLcImSSdvyT8YPSVS392PU2KQlxprehTgefQHMRVPP4J9BDOFJr62wGvYdHniEXYwLAcLmFGMI2jPwELBeaiYDi-OOvZlc1iiYJ10OIjRd1u0PanvZAQCt_J7H7O-Y-4cRPUAg.jpeg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -247,9 +247,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://harunmudak.com/wp-content/uploads/2020/12/girl-cartoon-characters-1.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -263,9 +263,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://m.media-amazon.com/images/I/61t+EX+x9bL.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -277,9 +277,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://easydrawingart.com/wp-content/uploads/2019/08/How-to-draw-a-cartoon-character-1.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -291,9 +291,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://assets-global.website-files.com/5a9ee6416e90d20001b20038/637ba75bd7d7f6f923ae6d17_d4UEyjlt1I0c1amn7clYuWuW9BZU5yoIubC71AFacMnP-i-DmpHbgAOTBLcImSSdvyT8YPSVS392PU2KQlxprehTgefQHMRVPP4J9BDOFJr62wGvYdHniEXYwLAcLmFGMI2jPwELBeaiYDi-OOvZlc1iiYJ10OIjRd1u0PanvZAQCt_J7H7O-Y-4cRPUAg.jpeg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -307,9 +307,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://harunmudak.com/wp-content/uploads/2020/12/girl-cartoon-characters-1.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -323,9 +323,9 @@ export function Home(){
           <Card style={{backgroundColor:"black" ,color:"white"}}>
           <Card.Img variant="top" src="https://m.media-amazon.com/images/I/61t+EX+x9bL.jpg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
+          Some quick example text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
         <Button variant="danger">Go somewhere</Button>
@@ -405,9 +405,9 @@ export function Home(){
       <Col md={6} className="mb-4">
           <Card style={{backgroundColor:"black" ,color:"white"}}>
       <Card.Body>
-        <Card.Title>Card 1</Card.Title>
+        <Card.Title>Write Title</Card.Title>
         <Card.Text>
-          Some quick examplestalwarts sharing their views,tips and vision on tends that are reinventing the <br/> way we work, live and function. Register for the upcoming webinar or choose as per your preference!stalwarts sharing their views,tips and vision on tends that are reinventing the <br/> way we work, live and function. Register for the upcoming webinar or choose as per your preference! text to build on the card title and make up the
+          Some quick examplestalwarts sharing their views,tips and vision on tends that are reinventing the <br/> way we work, live and function. Register for the upcoming webinar or choose as per your preference!stalwarts sharing their views,tips and vision on tends that are reinventing the <br/> way we work, live and function. Register for the upcoming webinar or choose as per your preference! text to build on the Write Title and make up the
           bulk of the card's content.
         </Card.Text>
       </Card.Body>
