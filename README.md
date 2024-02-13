@@ -44,5 +44,6 @@ Happy coding! 🚀
 
 ```bash
 # Example installation steps
+cd Home
 npm install
 npm run dev
